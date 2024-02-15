@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Création de Site Web</title>
+    <style>
+        /* Styles similaires à index.html */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header-section {
+            background-color: #FF7048;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-section img {
+            max-width: 30%;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .button-section a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 10px;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #FF7048;
+        }
+
+        button {
+            background-color: #FF7048;
+            color: #fff;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+.header-section button {
+            background-color: #FF7048;
+            color: #000000;
+            padding: 15px 20px;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #FF5722;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre au survol */
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <div class="logo-section">
+            <img src="C:\Users\Utilisateur\Desktop\Web project\how to.png" alt="Logo du site">
+        </div>
+        <div class="button-section">
+            <a href="index.html"><button>Home</button></a>
+            <a href="about.html"><button>About Us</button></a>
+            <a href="contact.html"><button>Contact Us</button></a>
+        </div>
+    </div>
+
+    <div id="container">
+        <h1>Contact Us</h1>
+
+        <p>N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous :</p>
+
+        <form id="contactForm">
+            <!-- Ajoutez les champs du formulaire ici -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <p>Ou utilisez les informations de contact suivantes :</p>
+
+        <p>Adresse e-mail : contact@example.com</p>
+        <p>Numéro de téléphone : +33 123 456 789</p>
+        <!-- Ajoutez d'autres informations de contact si nécessaire -->
+    </div>
+</body>
+</html>
